@@ -67,23 +67,23 @@ class Zoo:
         self.employees = employees
 
     def add_bird(self):
-        name, age, wingspan = input(print('Enter name, age and wingspan of new bird. Separate values with spaces')).split()
+        name, age, wingspan = input('Enter name, age and wingspan of new bird. Separate values with spaces').split()
         self.animals.append(Bird(name, age, wingspan))
 
     def add_mammal(self):
-        name, age, weight = input(print('Enter name, age and weight of new mammal. Separate values with spaces')).split()
+        name, age, weight = input('Enter name, age and weight of new mammal. Separate values with spaces').split()
         self.animals.append(Mammal(name, age, weight))
 
     def add_reptile(self):
-        name, age, length = input(print('Enter name, age and length of new reptile. Separate values with spaces')).split()
+        name, age, length = input('Enter name, age and length of new reptile. Separate values with spaces').split()
         self.animals.append(Reptile(name, age, length))
 
     def add_zookeeper(self):
-        name, age = input(print('Enter name and age of new zookeeper. Separate values with spaces')).split()
+        name, age = input('Enter name and age of new zookeeper. Separate values with spaces').split()
         self.employees.append(ZooKeeper(name, age))
 
     def add_veterinarian(self):
-        name, age = input(print('Enter name and age of new veterinarian. Separate values with spaces')).split()
+        name, age = input('Enter name and age of new veterinarian. Separate values with spaces').split()
         self.employees.append(Veterinarian(name, age))
 
 
